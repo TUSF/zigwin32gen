@@ -1,0 +1,19 @@
+.{
+    .name = "zigwin32gen",
+    .version = "0.1.0",
+    .dependencies = .{
+        .win32json = .{
+            .url = "https://github.com/marlersoft/win32json/archive/0337052317c881f541bd992c085347ff612725a8.tar.gz",
+            .hash = "12205d72c03ec5a569069e70da5ecd40b23a63b997b2f432e9e480ed92062be7e20a",
+        },
+    },
+    .paths = .{
+        "README.md",
+        "build.zig",
+        "build.zig.zon",
+        "update-merged-branch",
+        "patchstep.zig",
+        "notnull.json",
+        "src",
+    },
+}
